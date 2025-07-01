@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>QA System</title></head>
+<body>
+  <h2>Ask a Question</h2>
+  <form method="POST">
+    <label>Context:</label><br>
+    <textarea name="context" rows="6" cols="70" required></textarea><br><br>
+    <label>Question:</label><br>
+    <input type="text" name="question" size="60" required><br><br>
+    <button type="submit">Get Answer</button>
+  </form>
+  <h3>Answer: {{ answer }}</h3>
+</body>
+</html>
